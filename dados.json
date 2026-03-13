@@ -1,0 +1,36 @@
+{
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Ana",
+            "email": "ana@email.com"
+        },
+        {
+            "id": 2,
+            "nome": "Carlos",
+            "email": "carlos@email.com"
+        }
+    ],
+    "disciplinas": [
+        {
+            "codigo": "ES01",
+            "nome": "Engenharia de Software",
+            "peso_prova": 0.6,
+            "peso_trabalho": 0.4
+        }
+    ],
+    "matriculas": [
+        {
+            "aluno_id": 1,
+            "disciplina_codigo": "ES01",
+            "nota_prova": 7,
+            "nota_trabalho": 8
+        },
+        {
+            "aluno_id": 99,
+            "disciplina_codigo": "ES01",
+            "nota_prova": 8,
+            "nota_trabalho": 7
+        }
+    ]
+}
